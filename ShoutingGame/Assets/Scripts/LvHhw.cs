@@ -53,7 +53,7 @@ public class LvHhw : MonoBehaviour
                 Debug.Log("데시벨 값: " + input);
                 GameObject.Find("TxtScore").GetComponent<Text>().text = $"SCORE \n {input}";
 
-                if ((data >= 600) && (data <= 700))
+                if ((data >= 700) && (data <= 750))
                 {
                     SceneManager.LoadScene("LevelClear");
                     Debug.Log("씬 전환 성공");

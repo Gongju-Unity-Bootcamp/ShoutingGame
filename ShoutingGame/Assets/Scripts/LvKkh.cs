@@ -53,7 +53,7 @@ public class LvKkh : MonoBehaviour
                 Debug.Log("데시벨 값: " + input);
                 GameObject.Find("TxtScore").GetComponent<Text>().text = $"SCORE \n {input}";
 
-                if ((data >= 800) && (data <= 900))
+                if ((data >= 800) && (data <= 850))
                 {
                     SceneManager.LoadScene("SpecialRoundIntro");
                     Debug.Log("씬 전환 성공");

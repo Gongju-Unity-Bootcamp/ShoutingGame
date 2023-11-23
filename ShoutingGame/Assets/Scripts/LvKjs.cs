@@ -52,7 +52,7 @@ public class LvKjs : MonoBehaviour
                 Debug.Log("데시벨 값: " + input);
                 GameObject.Find("TxtScore").GetComponent<Text>().text = $"SCORE \n {input}";
 
-                if ((data >= 700) && (data <= 800))
+                if ((data >= 750) && (data <= 800))
                 {
                     SceneManager.LoadScene("LevelClear");
                     Debug.Log("씬 전환 성공");

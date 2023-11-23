@@ -53,7 +53,7 @@ public class LvJuni : MonoBehaviour
                 Debug.Log("데시벨 값: " + input);
                 GameObject.Find("TxtScore").GetComponent<Text>().text = $"SCORE \n {input}";
 
-                if ((data >= 500) && (data <= 600))
+                if ((data >= 650) && (data <= 700))
                 {
                     SceneManager.LoadScene("LevelClear");
                     Debug.Log("씬 전환 성공");

@@ -53,7 +53,7 @@ public class LvVitas : MonoBehaviour
                 Debug.Log("데시벨 값: " + input);
                 GameObject.Find("TxtScore").GetComponent<Text>().text = $"SCORE \n {input}";
 
-                if ((data >= 1000) && (data <= 1023))
+                if (data >= 900)
                 {
                     SceneManager.LoadScene("Dolphin");
                     Debug.Log("씬 전환 성공");
